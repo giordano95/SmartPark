@@ -72,6 +72,8 @@ Then pin names need to be configured as instructed in the drivers README file.
 
 If you have problems, you can review the [documentation](https://os.mbed.com/docs/latest/tutorials/debugging.html) for suggestions on what could be wrong and how to fix it.
 
+For a more exhaustive documentation of the project refer to [this](https://www.hackster.io/Marco_Ferraro/smart-park-3d3c49) post.
+
 ### License and contributions
 
 The software is provided under Apache-2.0 license. Contributions to this project are accepted under the same license. Please see contributing.md for more info.

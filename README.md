@@ -18,6 +18,8 @@ Moreover is possible to reserve a spot so that you can go straight to your reser
  - [Android Studio](https://developer.android.com/studio/)
  - [Firebase](https://firebase.google.com)
  
+ <img src="imgs/Arch.PNG">
+ 
  ## How it works
 The project is divided in two parts: 
 - the configuration and building of the IoT device able to check the presence of a car and update the status of the server.

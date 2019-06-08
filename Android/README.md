@@ -1,6 +1,6 @@
-# SmartPark
+# SmartPark app
 
-## Modalities
+## Supported modalities
 Our application is ready to face three different types of scenarios, always trying to best assist the user overtime.
 * The first way to use our application is also the simplest one. It gives to the user the possibility to **check** the parking lots status and to immediately distinguish between free and occupied ones. Once a free slot has been found, the user just has to reach the lot and park his car.
 

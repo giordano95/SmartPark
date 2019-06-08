@@ -9,7 +9,7 @@ We are three Engineers in Computer Science [Marco Ferraro](https://www.linkedin.
 The idea came out since every day seems more difficult to find parking spots especially inside in shopping centre parkings, and during festivities, when the malls are crowded, and you, after turning around a few times, decide to go back home.
 
 So the main purpose of our project is to provide a map of the parking updated in real time so that you can go straight to the free spot avoiding that someone who comes after you takes a spot you didn't noticed. We implemented a notification system so that you can know if someone is going to leave his place whitin five minutes.
-Moreover is possible to reserve a spot so that you can go straight to your reserved spot when you arrive.
+Moreover it's possible to reserve a spot so that you can go straight to your reserved spot when you arrive.
 
 ## What we have used
  - [Nucleo-F401RE](https://os.mbed.com/platforms/ST-Nucleo-F401RE/)
@@ -43,10 +43,18 @@ To encourage the users to notify their departure there is a bonus points system 
 In each folder has been included a detailed guide on how to use our code to reproduce each part of the project, and you can also refer to the [blog post](https://www.hackster.io/Marco_Ferraro/smart-park-3d3c49) where you can find more detailed instructions. 
 
 ####
-## STM board running ##
-<img src="https://i.postimg.cc/8c5X1mD8/photo-2019-06-07-19-35-44.jpg" width="280" />
+## STM board Configuration ##
+<img src="https://i.postimg.cc/8c5X1mD8/photo-2019-06-07-19-35-44.jpg" width="280" > 
+<img src="imgs/Schematic.PNG" width= "400">
 
-## Android Application
+## Android Application User Interface
+
+
+Below you can see the user interface for checking different parking lots, your active reservations and your bonus points status.
+
+To make a reservation, select a free parking spot, insert your car's plate and your estimated time of arrival (withing one hour) and you are good to go! You can then signal your departure 5 minutes beforehand and gain bonus points!
+
 ![alt text](https://hackster.imgix.net/uploads/attachments/917811/image_GlNTAMlghy.png)
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/917814/image_o9IqSfd1NE.png)
+

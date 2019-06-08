@@ -18,7 +18,13 @@ Moreover is possible to reserve a spot so that you can go straight to your reser
  - [Android Studio](https://developer.android.com/studio/)
  - [Firebase](https://firebase.google.com)
  
- <img src="imgs/Arch.PNG">
+ ## Architecture ##
+ 
+For every parking slot there's and ultrasonic sensor and three LEDs to signal if the spot is either free, occupied or reserved (green, red and yellow). Everything is connected and handeled by the Nucleo board, which sends an HTTPS request to Firebase throught the Wi-Fi module whenever the sensors' logic determines a state change. The Firebase database changes state for the corresponding parking slots and the Android application reads from it to draw the state map.
+
+Whenever an user makes a reservation, data is sent to Firebase to modify the state of the reserved slot and the board recieves the new state, switching on the yellow LED accordingly.
+
+<img src="imgs/Arch.PNG">
  
  ## How it works
 The project is divided in two parts: 
@@ -31,6 +37,7 @@ The application draws the parking lot map indicating the spots state with differ
 It is also possible to reserve a spot within the Android application, inserting the car plate and estimated time of arrival.
 Whenever you are leaving, you can also notify your departure, so that everybody can be aware of it.
 To encourage the users to notify their departure there is a bonus points system to get discounts.
+
 
 ## How to use
 In each folder has been included a detailed guide on how to use our code to reproduce each part of the project, and you can also refer to the [blog post](https://www.hackster.io/Marco_Ferraro/smart-park-3d3c49) where you can find more detailed instructions. 

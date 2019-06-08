@@ -49,6 +49,7 @@ To encourage the users to notify their departure there is a bonus points system 
 ## How to use
 You can finde the Java code for Android Studio under the "Android" folder and the code for MbedOS under the "STM_F401" folder.
 Once you have downloaded the files you can connect the board with the sensors with the schematics provided below and insert the code in the applications.
+
 Find more details inside the specific folders' ReadMe files.
 You can also refer to the [blog post](https://www.hackster.io/Marco_Ferraro/smart-park-3d3c49) where you can find more detailed instructions. 
 

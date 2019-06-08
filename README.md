@@ -52,7 +52,7 @@ In each folder has been included a detailed guide on how to use our code to repr
 
 Below you can see the user interface for checking different parking lots, your active reservations and your bonus points status.
 
-To make a reservation, select a free parking spot, insert your car's plate and your estimated time of arrival (withing one hour) and you are good to go! You can then signal your departure 5 minutes beforehand and gain bonus points!
+To make a reservation, select a free parking spot, insert your car's plate and your estimated time of arrival (within one hour) and you are good to go! You can then signal your departure 5 minutes beforehand and gain bonus points!
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/917811/image_GlNTAMlghy.png)
 
